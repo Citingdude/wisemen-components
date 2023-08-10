@@ -14,6 +14,8 @@ declare module 'vue' {
     'AppModal.story': typeof import('./src/components/app/modal/AppModal.story.vue')['default']
     AppText: typeof import('./src/components/app/text/AppText.vue')['default']
     'AppText.story': typeof import('./src/components/app/text/AppText.story.vue')['default']
+    AppTooltip: typeof import('./src/components/app/tooltip/AppTooltip.vue')['default']
+    'AppTooltip.story': typeof import('./src/components/app/tooltip/AppTooltip.story.vue')['default']
     FormError: typeof import('./src/components/form/error/FormError.vue')['default']
     FormInputField: typeof import('./src/components/form/field/FormInputField.vue')['default']
     'FormInputField.story': typeof import('./src/components/form/field/FormInputField.story.vue')['default']
